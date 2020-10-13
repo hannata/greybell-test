@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "resizable-widgets"
+    }
+  },
+  "defaultProject": "resizable-widgets",
+  "cli": {
+    "analytics": false
+  }
 }

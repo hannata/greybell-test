@@ -1,4 +1,5 @@
 
+<div #contentToConvert>
 <div class="container">
   <div class="container__div container__div--div1" appResizable>
   <app-widget1></app-widget1>
@@ -40,3 +41,5 @@
         <app-widget10></app-widget10>
         </div>
         </div>
+      </div>
+      <button (click)="generatePdf(contentToConvert)">Generate PDF</button>
